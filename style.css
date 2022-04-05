@@ -5,6 +5,9 @@
      src: url('fonts/et-line.svg');
      src: url('fonts/et-line.ttf');
      src: url('fonts/et-line.woff');
+     src: url('fonts/fontawesome-webfont.woff');
+     src: url('fonts/fontawesome-webfont.woff2');
+     
      font-display: swap;
  }
 
