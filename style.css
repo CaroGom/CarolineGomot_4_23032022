@@ -658,6 +658,10 @@ a {
     padding: 10px;
 }
 
+#bloc-8 p{
+    font-weight: bold;
+}
+
 .container {
     max-width: 1000px;
 }
