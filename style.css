@@ -31,6 +31,11 @@ a:hover {
     cursor: pointer;
 }
 
+img{
+    width: 100%;
+    height: auto;
+}
+
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
