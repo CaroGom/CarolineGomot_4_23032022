@@ -110,7 +110,6 @@ img {
 }
 .image-resize-mode{
     width: 20%;
-    max-height: 200px;
 }
 svg:not(:root) {
     overflow: hidden
@@ -961,10 +960,7 @@ pre code {
     margin-left: auto
 }
 
-.row {
-    margin-right: -15px;
-    margin-left: -15px
-}
+
 
 .col-lg-1,
 .col-lg-10,
@@ -4152,7 +4148,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 
 .navbar-brand>img {
     display: block;
-    min-width: 180px;
+    min-width: 100px;
     height: auto;
 }
 
