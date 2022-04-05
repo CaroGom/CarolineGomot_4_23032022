@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/texture-paper.webp");
     background-size: 280px 280px;
 }
 
@@ -654,6 +654,10 @@ a {
     color: #575757!important;
 }
 
+#bloc-8 a{
+    padding: 10px;
+}
+
 .container {
     max-width: 1000px;
 }
@@ -677,7 +681,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .tight-width-whitespace {
