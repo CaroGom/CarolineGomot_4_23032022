@@ -5,17 +5,19 @@
 
     <meta name="description" content="Panthère vous accompagne dans vos projets de site web sur la région lyonnaise">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <link rel="shortcut icon" type="image/png" href="favicon.jpg" alt="logo Panthère raccourci">
+    <link rel="shortcut icon" type="image/png" href="favicon.jpg">
     <link rel="preload" href="fonts/et-line.woff" as="font">
-	<link rel="stylesheet" href="css/bootstrap.min.css" defer>
-	<link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preload" href="fonts/fontawesome-webfont.woff" as="font" crossorigin="anonymous">
+    <link rel="preload" href="fonts/et-line.woff" as="font">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.min.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="css/et-line.min.css" defer>
+	<link rel="stylesheet" type="text/css" href="css/et-line.min.css">
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+	<script src="js/jquery-2.1.0.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous" defer></script>
-	<script src="./js/blocs.js" defer></script>
-	<script src="./js/jquery.touchSwipe.js" defer></script>
+	<script src="./js/blocs.min.js"></script>
+	<script src="./js/jquery.touchSwipe.min.js"></script>
 
 
     <title>La Panthère - Contact</title>
@@ -80,7 +82,7 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-6">
-				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+				<form id="form_1" novalidate>
 					<div class="form-group">
 						<label for="name">
 							Nom
